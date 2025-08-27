@@ -21,8 +21,8 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         
         const targetElement = document.querySelector(targetId);
         if (targetElement) {
-            const headerOffset = 80; // Height of fixed header
-            const elementPosition = targetElement.getBoundingClientRect().top;
+            const headerOffset = 80;
+const elementPosition = targetElement.getBoundingClientRect().top;
             const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
 
             window.scrollTo({
