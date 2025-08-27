@@ -63,8 +63,8 @@ const contactForm = document.querySelector('.contact-form');
 if (contactForm) {
     contactForm.addEventListener('submit', (e) => {
         e.preventDefault();
-        // Add your form submission logic here
-        alert('Thank you for your message! We will get back to you soon.');
+        
+alert('Thank you for your message! We will get back to you soon.');
         contactForm.reset();
     });
 }
